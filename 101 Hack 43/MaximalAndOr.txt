@@ -1,0 +1,30 @@
+Consider integers, . Let , where is the bitwise AND operator and is the bitwise OR operator.
+
+Choose two different indices, and , such that is maximal. Then print the value of the maximal .
+
+Input Format
+
+The first line contains a single integer denoting .
+The second line contains space-separated integers describing the respective values of .
+
+Constraints
+
+    For of the test cases:
+    For of the test cases:
+
+Output Format
+
+Print the maximal .
+
+Sample Input
+
+5
+1 2 3 4 5
+
+Sample Output
+
+20
+
+Explanation
+
+Given , we choose and to get a maximal value of . Thus, we print as our answer.

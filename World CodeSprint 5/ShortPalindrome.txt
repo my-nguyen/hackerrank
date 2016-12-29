@@ -1,0 +1,45 @@
+Consider a string, , of lowercase English letters where each character, (, denotes the letter at index in . We define an palindromic tuple of to be a sequence of indices in satisfying the following criteria:
+
+    , meaning the characters located at indices and are the same.
+    , meaning the characters located at indices and are the same.
+    , meaning that , , , and are ascending in value and are valid indices within string .
+
+Given , find and print the number of tuples satisfying the above conditions. As this value can be quite large, print it modulo .
+
+Input Format
+
+A single string denoting .
+
+Constraints
+
+    It is guaranteed that only contains lowercase English letters.
+
+Output Format
+
+Print the the number of tuples satisfying the conditions in the Problem Statement above. As this number can be very large, your answer must be modulo .
+
+Sample Input 0
+
+kkkkkkz
+
+Sample Output 0
+
+15
+
+Explanation 0
+
+The letter z will not be part of a valid tuple because you need at least two of the same character to satisfy the conditions defined above. Because all tuples consisting of four k's are valid, we just need to find the number of ways that we can choose four of the six k's. This means our answer is .
+
+Sample Input 1
+
+ghhggh
+
+Sample Output 1
+
+4
+
+Explanation 1
+
+The valid tuples are:
+
+Thus, our answer is .

@@ -1,0 +1,31 @@
+Stephanie just learned about a game called Nim in which there are two players and piles of stones. During each turn, a player must choose any non-empty pile and take as many stones as they want. The first player who cannot complete their turn (i.e., because all piles are empty) loses.
+
+Stephanie knows that, for each start position in this game, it's possible to know which player will win (i.e., the first or second player) if both players play optimally. Now she wants to know the number of different games that exist that satisfy all of the following conditions:
+
+    The game starts with piles and each pile contains less than stones.
+    All the piles contain pairwise different numbers of stones.
+    The first player wins if that player moves optimally.
+
+Help Stephanie by finding and printing the number of such games satisfying all the above criteria, modulo .
+
+Input Format
+
+The first line contains two space-separated integers describing the respective values of and .
+
+Constraints
+
+Output Format
+
+Print the number of such games, modulo .
+
+Sample Input 0
+
+2 2
+
+Sample Output 0
+
+6
+
+Explanation 0
+
+We want to know the number of games with piles where each pile contains stones. There are six such possible games with the following distributions of stones: . Thus, we print the result of as our answer

@@ -1,0 +1,30 @@
+Given numbers, , choose exactly numbers, , such that the value of below is minimal:
+
+Find and print the minimal value of .
+
+Input Format
+
+The first line contains two space-separated integers describing the respective values of and .
+The second line contains space-separated integers describing the respective values of .
+
+Constraints
+
+    For of the test cases, .
+    For of the test cases, , .
+
+Output Format
+
+Print the minimal value of on a new line.
+
+Sample Input 0
+
+4 2
+2 0 9 5
+
+Sample Output 0
+
+8
+
+Explanation 0
+
+We choose numbers, , to get . We then print the value of .

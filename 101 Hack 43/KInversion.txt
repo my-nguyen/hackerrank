@@ -1,0 +1,39 @@
+Let f(P) denote the number of inversions in some permutation, P. Calculate the
+number of permutations satisfying the following conditions:
+1. P is a permutation of { 1, 2, ..., n }.
+2. f(P) = k
+
+Given n and k, find and print the number of permutations of { 1, 2, ..., n }
+having k inversions. As this value can be quite large, your answer must be
+modulo 10^9 + 7.
+
+Input Format
+A single line of two space-separated integers describing the respective values
+of n and k.
+
+Constraints
+For 100% of the test cases:
+* 1 <= n <= 10^5
+* 0 <= k <= min(C2-n, 10^5)
+For 50% of the test cases:
+* 1 <= n <= 1000
+* 0 <= k <= 1000
+
+Output Format
+Print a single integer denoting the number of permutations having k inversions,
+modulo 10^9 + 7.
+
+Sample Input
+3 2
+
+Sample Output
+2
+
+Explanation
+
+Because n=3, our initial sequence is { 1, 2, 3 } and we must find the number of
+permutations having k=2 inversions. There are two such permutations:
+1. { 3, 1, 2 } has two inversions, (3, 1) and (3, 2).
+2. { 2, 3, 1 } has two inversions, (2, 1) and (3, 1).
+
+Thus, we print 2 as our answer.

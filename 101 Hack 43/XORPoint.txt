@@ -1,0 +1,37 @@
+Consider points, where each point has a weight, .
+
+Let denote the sum weight of every point in circle . Point is in circle if and only if
+
+Given the set of points, calculate for every point where and . Then print an integer denoting the XOR of all the values.
+
+Input Format
+
+The first line contains three space-separated integers describing the respective values of , , and .
+Each line of the subsequent lines contains space-separated integers describing the respective values of .
+
+Constraints
+
+    For of the test cases:
+        .
+    For of the test cases:
+        .
+
+Output Format
+
+Print an integer denoting the XOR of all .
+
+Sample Input
+
+2 2 1
+1 2
+3 4
+
+Sample Output
+
+0
+
+Explanation
+
+First, we find all :
+
+We then print the XOR all the above values, , as our answer.

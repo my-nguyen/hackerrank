@@ -1,0 +1,22 @@
+Given a positive integer, n, find and print the number of pairs of positive
+integers (a, b), where a < b, that exist such that the equation
+x * a + y * b = n (where x and y are positive integers) has at least one
+solution.
+
+Input Format
+A single positive integer denoting n.
+
+Constraints
+4 <= n <= 3*10^5
+
+Output Format
+Print a single integer denoting the number of such pairs.
+
+Sample Input 0
+4
+
+Sample Output 0
+2
+
+Explanation 0
+There are two such (a, b) pairs: (1, 2) and (1, 3).

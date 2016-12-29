@@ -1,0 +1,213 @@
+whole graph
+<id:1,visited:0,level:0>
+<id:2,visited:0,level:0>
+<id:3,visited:0,level:0>
+<id:4,visited:0,level:0>
+<id:5,visited:0,level:0>
+<id:6,visited:0,level:0>
+<id:7,visited:0,level:0>
+<id:8,visited:0,level:0>
+<id:9,visited:0,level:0>
+<id:10,visited:0,level:0>
+<id:11,visited:0,level:0>
+<id:12,visited:0,level:0>
+<id:13,visited:0,level:0>
+<id:14,visited:0,level:0>
+<id:15,visited:0,level:0>
+<id:16,visited:0,level:0>
+<id:17,visited:0,level:0>
+<id:18,visited:0,level:0>
+<id:19,visited:0,level:0>
+<id:20,visited:0,level:0>
+<id:21,visited:0,level:0>
+<id:22,visited:0,level:0>
+<id:23,visited:0,level:0>
+<id:24,visited:0,level:0>
+<id:25,visited:0,level:0>
+<id:26,visited:0,level:0>
+<id:27,visited:0,level:0>
+<id:28,visited:0,level:0>
+<id:29,visited:0,level:0>
+<id:30,visited:0,level:0>
+<id:31,visited:0,level:0>
+<id:32,visited:0,level:0>
+<id:33,visited:0,level:0>
+<id:34,visited:0,level:0>
+<id:35,visited:0,level:0>
+<id:36,visited:0,level:0>
+<id:37,visited:0,level:0>
+<id:38,visited:0,level:0>
+<id:39,visited:0,level:0>
+<id:40,visited:0,level:0>
+<id:41,visited:0,level:0>
+<id:42,visited:0,level:0>
+<id:43,visited:0,level:0>
+<id:44,visited:0,level:0>
+<id:45,visited:0,level:0>
+<id:46,visited:0,level:0>
+<id:47,visited:0,level:0>
+<id:48,visited:0,level:0>
+<id:49,visited:0,level:0>
+<id:50,visited:0,level:0>
+<id:51,visited:0,level:0>
+<id:52,visited:0,level:0>
+<id:53,visited:0,level:0>
+<id:54,visited:0,level:0>
+<id:55,visited:0,level:0>
+<id:56,visited:0,level:0>
+<id:57,visited:0,level:0>
+<id:58,visited:0,level:0>
+<id:59,visited:0,level:0>
+<id:60,visited:0,level:0>
+<id:61,visited:0,level:0>
+<id:62,visited:0,level:0>
+<id:63,visited:0,level:0>
+<id:64,visited:0,level:0>
+<id:65,visited:0,level:0>
+<id:66,visited:0,level:0>
+<id:67,visited:0,level:0>
+<id:68,visited:0,level:0>
+<id:69,visited:0,level:0>
+<id:70,visited:0,level:0>
+pop: <id:16,visited:0,level:0>
+push: <id:1,visited:1,level:1>
+push: <id:70,visited:1,level:1>
+push: <id:2,visited:1,level:1>
+push: <id:36,visited:1,level:1>
+push: <id:13,visited:1,level:1>
+push: <id:20,visited:1,level:1>
+push: <id:33,visited:1,level:1>
+push: <id:69,visited:1,level:1>
+push: <id:39,visited:1,level:1>
+push: <id:57,visited:1,level:1>
+push: <id:22,visited:1,level:1>
+push: <id:4,visited:1,level:1>
+push: <id:43,visited:1,level:1>
+push: <id:14,visited:1,level:1>
+push: <id:49,visited:1,level:1>
+push: <id:3,visited:1,level:1>
+push: <id:46,visited:1,level:1>
+push: <id:58,visited:1,level:1>
+push: <id:28,visited:1,level:1>
+push: <id:21,visited:1,level:1>
+pop: <id:1,visited:1,level:1>
+push: <id:64,visited:1,level:2>
+push: <id:8,visited:1,level:2>
+push: <id:17,visited:1,level:2>
+push: <id:63,visited:1,level:2>
+push: <id:45,visited:1,level:2>
+push: <id:12,visited:1,level:2>
+push: <id:9,visited:1,level:2>
+push: <id:15,visited:1,level:2>
+push: <id:10,visited:1,level:2>
+push: <id:32,visited:1,level:2>
+push: <id:67,visited:1,level:2>
+push: <id:7,visited:1,level:2>
+push: <id:40,visited:1,level:2>
+push: <id:38,visited:1,level:2>
+push: <id:47,visited:1,level:2>
+push: <id:34,visited:1,level:2>
+push: <id:56,visited:1,level:2>
+push: <id:48,visited:1,level:2>
+push: <id:19,visited:1,level:2>
+push: <id:44,visited:1,level:2>
+push: <id:41,visited:1,level:2>
+push: <id:16,visited:1,level:2>
+push: <id:27,visited:1,level:2>
+push: <id:52,visited:1,level:2>
+push: <id:55,visited:1,level:2>
+push: <id:53,visited:1,level:2>
+pop: <id:70,visited:1,level:1>
+push: <id:11,visited:1,level:2>
+push: <id:42,visited:1,level:2>
+push: <id:66,visited:1,level:2>
+push: <id:37,visited:1,level:2>
+push: <id:50,visited:1,level:2>
+push: <id:60,visited:1,level:2>
+pop: <id:2,visited:1,level:1>
+push: <id:30,visited:1,level:2>
+push: <id:23,visited:1,level:2>
+push: <id:26,visited:1,level:2>
+push: <id:5,visited:1,level:2>
+push: <id:68,visited:1,level:2>
+push: <id:65,visited:1,level:2>
+push: <id:29,visited:1,level:2>
+push: <id:62,visited:1,level:2>
+push: <id:35,visited:1,level:2>
+push: <id:31,visited:1,level:2>
+push: <id:61,visited:1,level:2>
+push: <id:25,visited:1,level:2>
+pop: <id:36,visited:1,level:1>
+push: <id:59,visited:1,level:2>
+push: <id:54,visited:1,level:2>
+pop: <id:13,visited:1,level:1>
+pop: <id:20,visited:1,level:1>
+push: <id:18,visited:1,level:2>
+push: <id:51,visited:1,level:2>
+pop: <id:33,visited:1,level:1>
+pop: <id:69,visited:1,level:1>
+push: <id:6,visited:1,level:2>
+pop: <id:39,visited:1,level:1>
+push: <id:24,visited:1,level:2>
+pop: <id:57,visited:1,level:1>
+pop: <id:22,visited:1,level:1>
+pop: <id:4,visited:1,level:1>
+pop: <id:43,visited:1,level:1>
+pop: <id:14,visited:1,level:1>
+pop: <id:49,visited:1,level:1>
+pop: <id:3,visited:1,level:1>
+pop: <id:46,visited:1,level:1>
+pop: <id:58,visited:1,level:1>
+pop: <id:28,visited:1,level:1>
+pop: <id:21,visited:1,level:1>
+pop: <id:64,visited:1,level:2>
+pop: <id:8,visited:1,level:2>
+pop: <id:17,visited:1,level:2>
+pop: <id:63,visited:1,level:2>
+pop: <id:45,visited:1,level:2>
+pop: <id:12,visited:1,level:2>
+pop: <id:9,visited:1,level:2>
+pop: <id:15,visited:1,level:2>
+pop: <id:10,visited:1,level:2>
+pop: <id:32,visited:1,level:2>
+pop: <id:67,visited:1,level:2>
+pop: <id:7,visited:1,level:2>
+pop: <id:40,visited:1,level:2>
+pop: <id:38,visited:1,level:2>
+pop: <id:47,visited:1,level:2>
+pop: <id:34,visited:1,level:2>
+pop: <id:56,visited:1,level:2>
+pop: <id:48,visited:1,level:2>
+pop: <id:19,visited:1,level:2>
+pop: <id:44,visited:1,level:2>
+pop: <id:41,visited:1,level:2>
+pop: <id:16,visited:1,level:2>
+pop: <id:27,visited:1,level:2>
+pop: <id:52,visited:1,level:2>
+pop: <id:55,visited:1,level:2>
+pop: <id:53,visited:1,level:2>
+pop: <id:11,visited:1,level:2>
+pop: <id:42,visited:1,level:2>
+pop: <id:66,visited:1,level:2>
+pop: <id:37,visited:1,level:2>
+pop: <id:50,visited:1,level:2>
+pop: <id:60,visited:1,level:2>
+pop: <id:30,visited:1,level:2>
+pop: <id:23,visited:1,level:2>
+pop: <id:26,visited:1,level:2>
+pop: <id:5,visited:1,level:2>
+pop: <id:68,visited:1,level:2>
+pop: <id:65,visited:1,level:2>
+pop: <id:29,visited:1,level:2>
+pop: <id:62,visited:1,level:2>
+pop: <id:35,visited:1,level:2>
+pop: <id:31,visited:1,level:2>
+pop: <id:61,visited:1,level:2>
+pop: <id:25,visited:1,level:2>
+pop: <id:59,visited:1,level:2>
+pop: <id:54,visited:1,level:2>
+pop: <id:18,visited:1,level:2>
+pop: <id:51,visited:1,level:2>
+pop: <id:6,visited:1,level:2>
+pop: <id:24,visited:1,level:2>
+6 6 6 6 12 12 12 12 12 12 12 12 6 12 12 12 12 6 6 6 12 12 12 12 12 6 12 12 12 12 6 12 12 6 12 12 6 12 12 12 6 12 12 6 12 12 6 12 12 12 12 12 12 12 6 6 12 12 12 12 12 12 12 12 12 12 6 6 

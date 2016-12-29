@@ -1,0 +1,8 @@
+Write a function that searches a sorted array of integers (in increasing order)
+and returns the first index that most closely matches a given criteria of
+operator and value. If no entry matches the search criteria, return -1.
+
+arraySearch(int[1, 2, 3,], LESS_THAN, 2) -> 0
+arraySearch(int[1, 2, 4, 5], GREATER_THAN, 3) -> 2
+
+Do pay close attention to simplicity, code readability and performance.

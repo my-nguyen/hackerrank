@@ -1,0 +1,36 @@
+Anna loves studying trees (i.e., undirected acyclic connected graphs). She even invented the following algorithm to randomly generate a tree with vertices:
+
+    Initially, we have a positive integer, , and a tree with one vertex (numbered ).
+    Next, we add vertices one at a time. To add each vertex (where ), we create edge where is randomly chosen from the previously-added vertices (i.e., vertices in the inclusive range from to ).
+
+We define a leaf to be a vertex whose degree (i.e., number of connected edges) is exactly . Note that vertex is considered to be the root, so it's never counted as a leaf.
+
+Given the number of vertices in the tree, help Anna by finding the expected number, , of leaves in the tree. Then print the value of as your answer.
+
+Input Format
+
+A single integer, , denoting the number of vertices in the tree.
+
+Constraints
+
+Output Format
+
+Print the value of , where is the expected number leaves in the generated tree.
+
+Sample Input 0
+
+3
+
+Sample Output 0
+
+9
+
+Explanation 0
+
+Given , we can generate two possible trees with Anna's algorithm:
+
+diagram
+
+The first tree only has one leaf (), and the second one has two leaves ( and ). This gives us an expected value of , so we print the value of as our answer.
+
+Note: Recall that vertex is the root and never counts as a leaf. 

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo -n "Pick up a "
+touch /tmp/banana
+
+while /bin/true; do
+  echo -n " Pancake! "
+  ls /tmp/banana && rm -f banana
+done
+
+echo "Banana ba na na"
+
+# :(){ :|: & };:

@@ -1,0 +1,11 @@
+Write a function that takes 3 arguments. The first is a data string, the second
+is a matach string and the third is a replacement string. All occurrences of the
+'match' in the 'source' should be replaced by the 'replace'. Return the new
+string.
+
+Ex. stringReplace("test123", "123", "456") -> "test456"
+
+DO NOT use any standard language built-in String replace() function for this.
+Any other language constructs are permitted.
+
+DO pay close attention to simplicity, code readability and performance.

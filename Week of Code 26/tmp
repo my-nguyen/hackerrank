@@ -1,0 +1,220 @@
+sieve of 100
+prime: 2
+at 4 is 0
+at 6 is 0
+at 8 is 0
+at 10 is 0
+at 12 is 0
+at 14 is 0
+at 16 is 0
+at 18 is 0
+at 20 is 0
+at 22 is 0
+at 24 is 0
+at 26 is 0
+at 28 is 0
+at 30 is 0
+at 32 is 0
+at 34 is 0
+at 36 is 0
+at 38 is 0
+at 40 is 0
+at 42 is 0
+at 44 is 0
+at 46 is 0
+at 48 is 0
+at 50 is 0
+at 52 is 0
+at 54 is 0
+at 56 is 0
+at 58 is 0
+at 60 is 0
+at 62 is 0
+at 64 is 0
+at 66 is 0
+at 68 is 0
+at 70 is 0
+at 72 is 0
+at 74 is 0
+at 76 is 0
+at 78 is 0
+at 80 is 0
+at 82 is 0
+at 84 is 0
+at 86 is 0
+at 88 is 0
+at 90 is 0
+at 92 is 0
+at 94 is 0
+at 96 is 0
+at 98 is 0
+at 100 is 0
+prime: 3
+at 6 is 0
+at 9 is 0
+at 12 is 0
+at 15 is 0
+at 18 is 0
+at 21 is 0
+at 24 is 0
+at 27 is 0
+at 30 is 0
+at 33 is 0
+at 36 is 0
+at 39 is 0
+at 42 is 0
+at 45 is 0
+at 48 is 0
+at 51 is 0
+at 54 is 0
+at 57 is 0
+at 60 is 0
+at 63 is 0
+at 66 is 0
+at 69 is 0
+at 72 is 0
+at 75 is 0
+at 78 is 0
+at 81 is 0
+at 84 is 0
+at 87 is 0
+at 90 is 0
+at 93 is 0
+at 96 is 0
+at 99 is 0
+not prime: 4
+prime: 5
+at 10 is 0
+at 15 is 0
+at 20 is 0
+at 25 is 0
+at 30 is 0
+at 35 is 0
+at 40 is 0
+at 45 is 0
+at 50 is 0
+at 55 is 0
+at 60 is 0
+at 65 is 0
+at 70 is 0
+at 75 is 0
+at 80 is 0
+at 85 is 0
+at 90 is 0
+at 95 is 0
+at 100 is 0
+not prime: 6
+prime: 7
+at 14 is 0
+at 21 is 0
+at 28 is 0
+at 35 is 0
+at 42 is 0
+at 49 is 0
+at 56 is 0
+at 63 is 0
+at 70 is 0
+at 77 is 0
+at 84 is 0
+at 91 is 0
+at 98 is 0
+not prime: 8
+not prime: 9
+not prime: 10
+not prime: 11
+not prime: 12
+not prime: 13
+not prime: 14
+not prime: 15
+not prime: 16
+not prime: 17
+not prime: 18
+not prime: 19
+not prime: 20
+not prime: 21
+not prime: 22
+not prime: 23
+not prime: 24
+not prime: 25
+not prime: 26
+not prime: 27
+not prime: 28
+not prime: 29
+not prime: 30
+not prime: 31
+not prime: 32
+not prime: 33
+not prime: 34
+not prime: 35
+not prime: 36
+not prime: 37
+not prime: 38
+not prime: 39
+not prime: 40
+not prime: 41
+not prime: 42
+not prime: 43
+not prime: 44
+not prime: 45
+not prime: 46
+not prime: 47
+not prime: 48
+not prime: 49
+not prime: 50
+not prime: 51
+not prime: 52
+not prime: 53
+not prime: 54
+not prime: 55
+not prime: 56
+not prime: 57
+not prime: 58
+not prime: 59
+not prime: 60
+not prime: 61
+not prime: 62
+not prime: 63
+not prime: 64
+not prime: 65
+not prime: 66
+not prime: 67
+not prime: 68
+not prime: 69
+not prime: 70
+not prime: 71
+not prime: 72
+not prime: 73
+not prime: 74
+not prime: 75
+not prime: 76
+not prime: 77
+not prime: 78
+not prime: 79
+not prime: 80
+not prime: 81
+not prime: 82
+not prime: 83
+not prime: 84
+not prime: 85
+not prime: 86
+not prime: 87
+not prime: 88
+not prime: 89
+not prime: 90
+not prime: 91
+not prime: 92
+not prime: 93
+not prime: 94
+not prime: 95
+not prime: 96
+not prime: 97
+not prime: 98
+not prime: 99
+not prime: 100
+what is n? 100
+2 3 5 7 
+low: 1, high: 100
+pair: 1, 3
+pair: 3, 5
+pair: 5, 7
+3
