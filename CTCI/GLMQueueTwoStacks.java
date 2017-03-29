@@ -3,12 +3,12 @@ class GLMQueueTwoStacks {
         private Stack<T> stackNewestOnTop = new Stack<>();
         private Stack<T> stackOldestOnTop = new Stack<>();
 
+        // push new value into stackNewestOnTop
         void enqueue(T value) {
             stackNewestOnTop.push(value);
         }
 
         T peek() {
-            // move elements from stackNewestOnTop to stackOldestOnTop
             shiftStacks();
             return stackOldestOnTop.peek();
         }
@@ -19,7 +19,11 @@ class GLMQueueTwoStacks {
         }
 
         private void shiftStacks() {
+            // only when stackOldestOnTop is empty
             if (stackOldestOnTop.isEmpty()) {
+                // move elements from stackNewestOnTop to stackOldestOnTop
+                // so that newest elements stay at the bottom and oldest
+                // elements stay at the top of stackOldestOnTop
                 while (!stackNewestOnTop.isEmpty()) {
                     stackOldestOnTop.push(stackNewestOnTop.pop());
                 }
