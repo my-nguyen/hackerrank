@@ -10,6 +10,8 @@ class GLMRecursiveStaircase {
     }
 
     // second try: time complexity O(n) but space complexity is O(n)
+    // this approach uses an int[] to store computed path counts, and it
+    // also uses recursion, which explains the space complexity of O(n)
     public static int countPathsMemo(int steps, int[] memo) {
         if (steps < 0)
             return 0;
@@ -27,6 +29,8 @@ class GLMRecursiveStaircase {
     }
 
     // third try: no O(n) of call stack space, but still O(n) for paths
+    // this approach does away with recursion; it iteratively computes and
+    // stores the path counts in an array, which requires space O(n)
     public static int countPathsDynamic(int steps) {
         if (steps < 0)
             return 0;
@@ -44,6 +48,8 @@ class GLMRecursiveStaircase {
     }
 
     // fourth and final try: space complexity only O(1)
+    // this approach does away with the array; instead it only retains
+    // the top 3 path counts that are necessary for any computation
     public static int countPathsIterative(int steps) {
         if (steps < 0)
             return 0;
