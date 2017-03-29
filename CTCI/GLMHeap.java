@@ -73,7 +73,9 @@ class GLMHeap {
         // only check for left child: no need to check for right child if
         // there's no left child
         while (hasLeftChild(index)) {
+            // left child is smaller child by default
             int smallerIndex = leftChildIndex(index);
+            // unless there's a right child which is smaller than the left child
             if (hasRightChild(index) && rightChild(index) < leftChild(index)) {
                 smallerIndex = rightChildIndex(index);
             }
