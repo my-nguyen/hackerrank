@@ -1,8 +1,10 @@
 class GLMBalancedParentheses {
+    // two-dimensional array, each row is a pair of braces:
+    // "{" and "}, "[" and "]", and "(" and ")"
     public static char[][] TOKENS = { {'{', '}'}, {'[', ']'}, {'(', ')'} };
 
     // whether a character is an open term: "{", "[", or "("
-    public static boolean isOpenTerm(char c) {
+    private static boolean isOpenTerm(char c) {
         for (char[] array : TOKENS) {
             if (array[0] == c)
                 return true;
@@ -10,9 +12,9 @@ class GLMBalancedParentheses {
         return false;
     }
 
-    // whether openTerm is an open term and if so, whether it matches
+    // whether a character is an open term and if so, whether it matches
     // with a corresponding close term
-    public static boolean matches(char openTerm, char closeTerm) {
+    private static boolean matches(char openTerm, char closeTerm) {
         for (char[] array : TOKENS) {
             if (array[0] == openTerm)
                 return array[1] == closeTerm;
